@@ -38,13 +38,14 @@ Aplikasi kalkulator insentif sales AE dan pelaporan data leads prospek MyRepubli
 
 ```text
 kalkulator-ae-main/
-├── index.html                    # Versi Standalone React 18 (Siap dibuka langsung / GAS)
-├── react-app.html                # Salinan mandiri Standalone React 18
-├── index.vite.html               # Entry point untuk Vite development
+├── index.html                    # Entry point Vite untuk Production & Vercel
+├── react-app.html                # Versi Standalone Single-File React 18 (Offline & GAS)
+├── vercel.json                   # Konfigurasi deployment Vercel (Vite preset & SPA routes)
 ├── package.json                  # Dependensi Vite + React 18
 ├── vite.config.js                # Konfigurasi Vite bundler
-├── tailwind.config.js            # Konfigurasi Tailwind CSS
+├── tailwind.config.js            # Konfigurasi Tailwind CSS (MyRepublic Purple Theme)
 ├── postcss.config.js             # Konfigurasi PostCSS
+├── serve.ps1                     # Local web server runner (Port 3000 & 5000)
 ├── Code.gs                       # Backend Google Apps Script (tetap didukung)
 ├── Project DL.xlsx               # File sumber database Excel
 ├── src/
