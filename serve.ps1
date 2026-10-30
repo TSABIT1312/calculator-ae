@@ -29,8 +29,9 @@ try {
             $response = $context.Response
 
             $urlPath = $request.Url.LocalPath.TrimStart('/')
-            if ([string]::IsNullOrEmpty($urlPath) -or $urlPath -eq "/") {
-                $urlPath = "index.html"
+            if ([string]::IsNullOrEmpty($urlPath) -or $urlPath -eq "/" -or $urlPath -eq "index.html") {
+                $distPath = Join-Path $PSScriptRoot "dist\index.html"
+                $urlPath = if (Test-Path $distPath) { "dist\index.html" } else { "react-app.html" }
             }
 
             $filePath = Join-Path $PSScriptRoot $urlPath
