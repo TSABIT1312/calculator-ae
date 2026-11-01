@@ -1,32 +1,34 @@
+
 // Data produk dan konfigurasi insentif MyRepublic Purwokerto
 export const PRODUCTS_DATA = [
-  { name: "Ringan",   catPrestasi: "Cat1", batRate: 20833, tariffs: { "0-5": 0, "6-10": 25000,  "11-14": 35000,  "15+": 45000 } },
-  { name: "Pas",      catPrestasi: "Cat1", batRate: 20833, tariffs: { "0-5": 0, "6-10": 25000,  "11-14": 35000,  "15+": 45000 } },
-  { name: "Santai",   catPrestasi: "Cat1", batRate: 41667, tariffs: { "0-5": 0, "6-10": 50000,  "11-14": 60000,  "15+": 70000 } },
-  { name: "Ekonomis", catPrestasi: "Cat1", batRate: 41667, tariffs: { "0-5": 0, "6-10": 50000,  "11-14": 60000,  "15+": 70000 } },
-  { name: "Sahabat",  catPrestasi: "Cat2", batRate: 83333, tariffs: { "0-5": 0, "6-10": 65000,  "11-14": 100000, "15+": 125000 } },
-  { name: "Neo",      catPrestasi: "Cat3", batRate: 83333, tariffs: { "0-5": 0, "6-10": 80000,  "11-14": 150000, "15+": 175000 } },
-  { name: "Velo",     catPrestasi: "Cat3", batRate: 83333, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 350000, "15+": 400000 } },
-  { name: "Nexus",    catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 400000, "15+": 450000 } },
-  { name: "Prime",    catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 500000, "15+": 525000 } },
-  { name: "Wonder",   catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 600000, "15+": 625000 } },
-  { name: "Ultra",    catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 700000, "15+": 725000 } }
+  { name: "Ringan", catPrestasi: "Cat1", batRate: 20833, tariffs: { "0-5": 0, "6-10": 25000, "11-14": 35000, "15+": 45000 } },
+  { name: "Pas", catPrestasi: "Cat1", batRate: 20833, tariffs: { "0-5": 0, "6-10": 25000, "11-14": 35000, "15+": 45000 } },
+  { name: "Santai", catPrestasi: "Cat1", batRate: 41667, tariffs: { "0-5": 0, "6-10": 50000, "11-14": 60000, "15+": 70000 } },
+  { name: "Ekonomis", catPrestasi: "Cat1", batRate: 41667, tariffs: { "0-5": 0, "6-10": 50000, "11-14": 60000, "15+": 70000 } },
+  { name: "Sahabat", catPrestasi: "Cat2", batRate: 83333, tariffs: { "0-5": 0, "6-10": 65000, "11-14": 100000, "15+": 125000 } },
+  { name: "Neo", catPrestasi: "Cat3", batRate: 83333, tariffs: { "0-5": 0, "6-10": 80000, "11-14": 150000, "15+": 175000 } },
+  { name: "Velo", catPrestasi: "Cat3", batRate: 83333, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 350000, "15+": 400000 } },
+  { name: "Nexus", catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 400000, "15+": 450000 } },
+  { name: "Prime", catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 500000, "15+": 525000 } },
+  { name: "Wonder", catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 600000, "15+": 625000 } },
+  { name: "Ultra", catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 700000, "15+": 725000 } },
+  { name: "MyGamer", catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 750000, "15+": 775000 } }
 ];
 
 export const PRESTASI_TIERS = [
   { min: 25, label: ">= 25 SA", maxCap: 2800000, rates: { Cat1: 35000, Cat2: 110000, Cat3: 120000, Cat4: 185000 } },
-  { min: 20, label: "20-24 SA", maxCap: 2100000, rates: { Cat1: 30000, Cat2: 95000,  Cat3: 105000, Cat4: 165000 } },
-  { min: 15, label: "15-19 SA", maxCap: 1400000, rates: { Cat1: 25000, Cat2: 80000,  Cat3: 90000,  Cat4: 145000 } },
-  { min: 10, label: "10-14 SA", maxCap: 700000,  rates: { Cat1: 20000, Cat2: 65000,  Cat3: 75000,  Cat4: 120000 } },
-  { min: 0,  label: "< 10 SA",  maxCap: 0,       rates: { Cat1: 0,     Cat2: 0,      Cat3: 0,      Cat4: 0 } }
+  { min: 20, label: "20-24 SA", maxCap: 2100000, rates: { Cat1: 30000, Cat2: 95000, Cat3: 105000, Cat4: 165000 } },
+  { min: 15, label: "15-19 SA", maxCap: 1400000, rates: { Cat1: 25000, Cat2: 80000, Cat3: 90000, Cat4: 145000 } },
+  { min: 10, label: "10-14 SA", maxCap: 700000, rates: { Cat1: 20000, Cat2: 65000, Cat3: 75000, Cat4: 120000 } },
+  { min: 0, label: "< 10 SA", maxCap: 0, rates: { Cat1: 0, Cat2: 0, Cat3: 0, Cat4: 0 } }
 ];
 
 export const PRESTASI_3BLN_TIERS = [
   { min: 75, label: ">= 75 SA", maxCap: 16800000, rates: { Cat1: 35000, Cat2: 110000, Cat3: 120000, Cat4: 185000 } },
-  { min: 60, label: "60-74 SA", maxCap: 12600000, rates: { Cat1: 30000, Cat2: 95000,  Cat3: 105000, Cat4: 165000 } },
-  { min: 45, label: "45-59 SA", maxCap: 8400000,  rates: { Cat1: 25000, Cat2: 80000,  Cat3: 90000,  Cat4: 145000 } },
-  { min: 30, label: "30-44 SA", maxCap: 4200000,  rates: { Cat1: 20000, Cat2: 65000,  Cat3: 75000,  Cat4: 120000 } },
-  { min: 0,  label: "< 30 SA",  maxCap: 0,        rates: { Cat1: 0,     Cat2: 0,      Cat3: 0,      Cat4: 0 } }
+  { min: 60, label: "60-74 SA", maxCap: 12600000, rates: { Cat1: 30000, Cat2: 95000, Cat3: 105000, Cat4: 165000 } },
+  { min: 45, label: "45-59 SA", maxCap: 8400000, rates: { Cat1: 25000, Cat2: 80000, Cat3: 90000, Cat4: 145000 } },
+  { min: 30, label: "30-44 SA", maxCap: 4200000, rates: { Cat1: 20000, Cat2: 65000, Cat3: 75000, Cat4: 120000 } },
+  { min: 0, label: "< 30 SA", maxCap: 0, rates: { Cat1: 0, Cat2: 0, Cat3: 0, Cat4: 0 } }
 ];
 
 export const BAT_DATA = {
