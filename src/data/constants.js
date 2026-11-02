@@ -1,8 +1,7 @@
 
 // Data produk dan konfigurasi insentif MyRepublic Purwokerto
 export const PRODUCTS_DATA = [
-  { name: "Ringan", beforePpn: 99099, afterPpn: 110000, catPrestasi: "Cat1", batRate: 20833, tariffs: { "0-5": 0, "6-10": 25000, "11-14": 35000, "15+": 45000 } },
-  { name: "Pas", beforePpn: 125000, afterPpn: 138750, catPrestasi: "Cat1", batRate: 20833, tariffs: { "0-5": 0, "6-10": 25000, "11-14": 35000, "15+": 45000 } },
+  { name: "Ringan/Pas", beforePpn: 99099, afterPpn: 110000, catPrestasi: "Cat1", batRate: 20833, tariffs: { "0-5": 0, "6-10": 25000, "11-14": 35000, "15+": 45000 } },
   { name: "Santai", speed: "50 Mbps", beforePpn: 135135, afterPpn: 150000, catPrestasi: "Cat1", batRate: 41667, tariffs: { "0-5": 0, "6-10": 50000, "11-14": 60000, "15+": 70000 } },
   { name: "Ekonomis", beforePpn: 150000, afterPpn: 166500, catPrestasi: "Cat1", batRate: 41667, tariffs: { "0-5": 0, "6-10": 50000, "11-14": 60000, "15+": 70000 } },
   { name: "Sahabat", beforePpn: 185000, afterPpn: 205350, catPrestasi: "Cat2", batRate: 83333, tariffs: { "0-5": 0, "6-10": 65000, "11-14": 100000, "15+": 125000 } },
