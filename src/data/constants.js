@@ -7,7 +7,7 @@ export const PRODUCTS_DATA = [
   { name: "Ekonomis", beforePpn: 150000, afterPpn: 166500, catPrestasi: "Cat1", batRate: 41667, tariffs: { "0-5": 0, "6-10": 50000, "11-14": 60000, "15+": 70000 } },
   { name: "Sahabat", beforePpn: 185000, afterPpn: 205350, catPrestasi: "Cat2", batRate: 83333, tariffs: { "0-5": 0, "6-10": 65000, "11-14": 100000, "15+": 125000 } },
   { name: "Neo100", beforePpn: 210000, afterPpn: 233100, catPrestasi: "Cat3", batRate: 83333, tariffs: { "0-5": 0, "6-10": 80000, "11-14": 150000, "15+": 175000 } },
-  { name: "Velto150", beforePpn: 250000, afterPpn: 277500, catPrestasi: "Cat3", batRate: 83333, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 350000, "15+": 400000 } },
+  { name: "Velo150", beforePpn: 250000, afterPpn: 277500, catPrestasi: "Cat3", batRate: 83333, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 350000, "15+": 400000 } },
   { name: "Nexus300", beforePpn: 300000, afterPpn: 333000, catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 400000, "15+": 450000 } },
   { name: "Gamer250", beforePpn: 400000, afterPpn: 444000, catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 450000, "15+": 475000 } },
   { name: "Prime500", beforePpn: 500000, afterPpn: 555000, catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 500000, "15+": 525000 } },
