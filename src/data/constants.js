@@ -1,18 +1,21 @@
 
 // Data produk dan konfigurasi insentif MyRepublic Purwokerto
 export const PRODUCTS_DATA = [
-  { name: "Ringan", catPrestasi: "Cat1", batRate: 20833, tariffs: { "0-5": 0, "6-10": 25000, "11-14": 35000, "15+": 45000 } },
-  { name: "Pas", catPrestasi: "Cat1", batRate: 20833, tariffs: { "0-5": 0, "6-10": 25000, "11-14": 35000, "15+": 45000 } },
-  { name: "Santai", catPrestasi: "Cat1", batRate: 41667, tariffs: { "0-5": 0, "6-10": 50000, "11-14": 60000, "15+": 70000 } },
-  { name: "Ekonomis", catPrestasi: "Cat1", batRate: 41667, tariffs: { "0-5": 0, "6-10": 50000, "11-14": 60000, "15+": 70000 } },
-  { name: "Sahabat", catPrestasi: "Cat2", batRate: 83333, tariffs: { "0-5": 0, "6-10": 65000, "11-14": 100000, "15+": 125000 } },
-  { name: "Neo", catPrestasi: "Cat3", batRate: 83333, tariffs: { "0-5": 0, "6-10": 80000, "11-14": 150000, "15+": 175000 } },
-  { name: "Velo", catPrestasi: "Cat3", batRate: 83333, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 350000, "15+": 400000 } },
-  { name: "Nexus", catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 400000, "15+": 450000 } },
-  { name: "Prime", catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 500000, "15+": 525000 } },
-  { name: "Wonder", catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 600000, "15+": 625000 } },
-  { name: "Ultra", catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 700000, "15+": 725000 } },
-  { name: "MyGamer", catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 750000, "15+": 775000 } }
+  { name: "Ringan", beforePpn: 99099, afterPpn: 110000, catPrestasi: "Cat1", batRate: 20833, tariffs: { "0-5": 0, "6-10": 25000, "11-14": 35000, "15+": 45000 } },
+  { name: "Pas", beforePpn: 125000, afterPpn: 138750, catPrestasi: "Cat1", batRate: 20833, tariffs: { "0-5": 0, "6-10": 25000, "11-14": 35000, "15+": 45000 } },
+  { name: "Santai", speed: "50 Mbps", beforePpn: 135135, afterPpn: 150000, catPrestasi: "Cat1", batRate: 41667, tariffs: { "0-5": 0, "6-10": 50000, "11-14": 60000, "15+": 70000 } },
+  { name: "Ekonomis", beforePpn: 150000, afterPpn: 166500, catPrestasi: "Cat1", batRate: 41667, tariffs: { "0-5": 0, "6-10": 50000, "11-14": 60000, "15+": 70000 } },
+  { name: "Sahabat", beforePpn: 185000, afterPpn: 205350, catPrestasi: "Cat2", batRate: 83333, tariffs: { "0-5": 0, "6-10": 65000, "11-14": 100000, "15+": 125000 } },
+  { name: "Neo100", beforePpn: 210000, afterPpn: 233100, catPrestasi: "Cat3", batRate: 83333, tariffs: { "0-5": 0, "6-10": 80000, "11-14": 150000, "15+": 175000 } },
+  { name: "Velto150", beforePpn: 250000, afterPpn: 277500, catPrestasi: "Cat3", batRate: 83333, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 350000, "15+": 400000 } },
+  { name: "Nexus300", beforePpn: 300000, afterPpn: 333000, catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 400000, "15+": 450000 } },
+  { name: "Gamer250", beforePpn: 400000, afterPpn: 444000, catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 450000, "15+": 475000 } },
+  { name: "Prime500", beforePpn: 500000, afterPpn: 555000, catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 500000, "15+": 525000 } },
+  { name: "Gamer500", beforePpn: 550000, afterPpn: 610500, catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 500000, "15+": 575000 } },
+  { name: "Wonder750", beforePpn: 650000, afterPpn: 721500, catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 600000, "15+": 625000 } },
+  { name: "Gamer750", beforePpn: 700000, afterPpn: 777000, catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 650000, "15+": 675000 } },
+  { name: "Ultra1Gbps", beforePpn: 850000, afterPpn: 943500, catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 700000, "15+": 725000 } },
+  { name: "Gamer1Gbps", beforePpn: 900000, afterPpn: 999000, catPrestasi: "Cat4", batRate: 125000, tariffs: { "0-5": 0, "6-10": 100000, "11-14": 750000, "15+": 775000 } }
 ];
 
 export const PRESTASI_TIERS = [
